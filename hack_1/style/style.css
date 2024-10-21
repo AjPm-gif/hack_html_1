@@ -1,0 +1,49 @@
+:root{
+    --bg-Blue:#93B5C9;
+    --bg-Wine:#AB2849;
+}
+
+.contenedorabs {
+    position: relative;
+    border: 1px solid black;
+    padding: 60px;
+    background-color:var(--bg-Blue);
+}
+
+.contenedorabs2 {
+    position: relative;
+    border: 1px solid black;
+    padding: 90px;
+    background-color:var(--bg-Wine);
+}
+
+.contenedorabs3 {
+    position: relative;
+    border: 1px solid black;
+    padding: 50px;
+    background-color:var(--bg-Wine);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.contrel {
+    position:relative;
+    border: 1px solid black;
+    top: 10px;
+    padding: 50px;
+    background-color:var(--bg-Wine);
+    margin-left: 700px;
+    margin-bottom: 20px;
+}
+
+  .elemento-absoluto {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+  
+  .elemento-relativo {
+    position: relative;
+    text-align: center;
+}

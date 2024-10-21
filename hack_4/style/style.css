@@ -1,0 +1,76 @@
+:root{
+    --bg-Blue:#93B5C9;
+    --bg-Wine:#AB2849;
+}
+
+.linea-redondeada {
+    width: 100px; /* Ancho de la línea */
+    height: 5px;  /* Alto de la línea */
+    background-color: #000; /* Color de fondo de la línea */
+    border-radius: 5px;  /* Redondea las esquinas */  
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+
+}
+.centrado-L {
+    margin-left: 679px;
+}
+.contenedorL {
+    display: flex;
+    justify-content: left;
+    margin-top: 175px;
+}
+
+.contenedorLe {
+    display: flex;
+    justify-content: left;
+    margin-top: 35px;
+}
+
+.linea-normal {
+    width: 1500px; /* Ancho de la línea */
+    height: 30px;  /* Alto de la línea */
+    background-color: #debb0f; /* Color de fondo de la línea */
+}
+
+.imagen1 {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.imagen2 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.imagen3 {
+    position: absolute;
+    top: 65%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.texto {
+    text-align: center;
+}
+
+.precios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 410px;
+    margin: 80px 260px 0px 260px;
+}
+
+H1 {
+    color: #debb0f; /* Azul */
+}

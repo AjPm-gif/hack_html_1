@@ -1,0 +1,170 @@
+:root{
+    --bg-Green:#14d648;
+    --bg-Black:#000000;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 50px;  
+}
+
+.contenedorT {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 0px 10px 0px 220px;
+}
+
+.circulo {
+    width: 50px;
+    height: 50px;
+    background-color:var(--bg-Green);
+    border-radius: 50%;
+}
+
+h1 {
+ margin: 11px 0px 0px 50px;
+ width: 116px;
+}
+
+h3 {
+    margin: 15px 0px 0px 140px;
+}
+
+.section {
+    position: relative; 
+}
+  
+.section img {
+    width: 1460px; /* Ajusta el ancho de la imagen según necesites */
+    height: 600px;
+}
+
+.section2 img {
+    width: 400px; /* Ajusta el ancho de la imagen según necesites */
+    height: 400px;
+}
+  
+.texto1 {
+    position: absolute;
+    top: 32%;
+    left: 19.5%;
+    transform: translate(-50%, -50%); 
+    color: white; /* Cambia el color del texto */
+    font-size: 60px; /* Ajusta el tamaño de la fuente */
+    background-color: var(--bg-Green);
+    padding-left: 133px;
+    padding-right: 45px;
+}
+
+.texto2 {
+    position: absolute;
+    top: 45%;
+    left: 33.4%;
+    transform: translate(-50%, -50%); 
+    color: white; /* Cambia el color del texto */
+    font-size: 60px; /* Ajusta el tamaño de la fuente */
+    background-color: var(--bg-Green);
+    padding-left: 118px;
+    padding-right: 45px;
+}
+
+.texto3 {
+    position: absolute;
+    top: 57.2%;
+    left: 33.4%;
+    transform: translate(-50%, -50%); 
+    color: white; /* Cambia el color del texto */
+    font-size: 60px; /* Ajusta el tamaño de la fuente */
+    background-color: var(--bg-Green);
+    padding-left: 120px;
+    padding-right: 290px;
+}
+.texto4 {
+    position: absolute;
+    top: 70.2%;
+    left: 29.5%;
+    transform: translate(-50%, -50%); 
+    color: white; /* Cambia el color del texto */
+    font-size: 30px; /* Ajusta el tamaño de la fuente */
+    background-color: var(--bg-Black);
+    padding-left: 120px;
+    padding-right: 200px;
+}
+
+.texto5 {
+    position: absolute;
+    top: 79.2%;
+    left: 21.2%;
+    transform: translate(-50%, -50%); 
+    color: white; /* Cambia el color del texto */
+    font-size: 30px; /* Ajusta el tamaño de la fuente */
+    background-color: var(--bg-Black);
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 200px;
+
+}
+
+.titulo {
+    font-size: 40px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.titulo2 {
+    font-size: 21px;
+    margin: 0px;
+}
+
+.titulo3 {
+    font-size: 21px;
+    margin: 0px 250px 0px 130px;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
+    grid-gap: 45px; /* Espacio entre las cajas */
+    margin: 0px 100px 0px 100px;
+}
+
+.box {
+    text-align: center;
+    padding: 0px;
+}
+.boxTg {
+    text-align: left;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxTp {
+    text-align: left;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.contenedorabs3 {
+    position: relative;
+    padding: 20px;
+    background-color:var(--bg-Green);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.elemento-absoluto {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}

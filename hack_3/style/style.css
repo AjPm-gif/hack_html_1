@@ -1,0 +1,60 @@
+:root{
+    --bg-Blue:#93B5C9;
+    --bg-Wine:#AB2849;
+}
+
+.containerFijoB {
+    display: flex;
+    justify-content: left;
+    background-color: var(--bg-Blue);
+    padding: 50px;
+}
+
+.containerFijoW {
+    display: flex;
+    justify-content: left;
+    background-color: var(--bg-Wine);
+    padding: 80px;
+}
+
+.containerFijoW2 {
+    display: flex;
+    justify-content: left;
+    background-color: var(--bg-Wine);
+    padding: 40px;
+}
+
+.containerFlexWcenter {
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-Wine);
+    padding: 60px;
+    margin-top: 60px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.containerFlex {
+    display: flex;
+    justify-content: space-between;
+    justify-items: normal;
+    margin-top: 10px;
+    padding: 40px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.item {
+    border: 1px solid black;
+}
+
+.itemFlex {
+    border: 1px solid black;
+    justify-content: left;
+    background-color: var(--bg-Wine);
+    margin-left: 40px;
+    margin-right: 90px;
+    height: 120px;
+    width: 500px;
+    padding: 5px;
+}
